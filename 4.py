@@ -1,5 +1,9 @@
 
 
+
+
+
+
 r = open("reactionsInfo.txt", "r")
 e = r.read()
 f = open("reactionsInfo.txt", "w")
