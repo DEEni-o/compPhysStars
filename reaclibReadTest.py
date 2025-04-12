@@ -83,8 +83,8 @@ def calculate_reaction_rate(T9, coefficients):
 
 def main():
     # Example usage
-    filename = 'models/rates/he3-p-he4-bet'  # Replace with your Reaclib1 file path
-    T9 = 5  # Temperature in 10^9 K
+    filename = 'models/rates/p-ng-d-an06'  # Replace with your Reaclib1 file path
+    T9 = 1  # Temperature in 10^9 K
 
     reactions = parse_reaclib1_file(filename)
 
